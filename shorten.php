@@ -1,6 +1,6 @@
 <?php
 // Connect to the database
-$conn = mysqli_connect('sql102.epizy.com', 'epiz_31064923', 'ynDeteQ0fbL', 'epiz_31064923_url');
+$conn = mysqli_connect('localhost', 'username', 'password', 'database');
 
 // Check connection
 if (!$conn) {
